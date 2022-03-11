@@ -95,7 +95,8 @@
                                 <li>JS compilation and execution take place simultaneously. </li>
                                 <li>JS works slowly and displays error of each line ony by one.</li>
 
-
+                                <li>To be single Threated language js need to works asyncronously so that js works by
+                                    event loop.</li>
                                 <li>Js works by V8 engine normally in the chrome browser and Different browsers have
                                     Different engines for javascript but The V8 engine is an internal mechanism. It's
                                     executing JS source code.
@@ -130,11 +131,14 @@
                         <div class="accordion-body">
                             <h5>Ans:</h5>
                             <ol style="list-style-type: number;">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>JavaScript Event Loop works with Stack and Queue.</li>
+                                <li>Event loop process micro and macro data and then call them in Stack for execute.
+                                </li>
+                                <li>In JS Event Loop, at first execute Micro Queue code.Such as - function etc. </li>
+                                <li>After executing Micro code then execute Macro Queue code such as - fetch, set
+                                    timeout , setInterval etc.</li>
+                                <li>Js Event loop handle non bloking asyncronous data.</li>
+
                             </ol>
 
                         </div>
